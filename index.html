@@ -52,7 +52,20 @@
           </ul><!-- section-intro__list -->
         </div><!-- section-intro__wrapper -->
 
+        <form class="site-form" action="https://acho.htmlacademy.com">
+          <h3 class="site-form__header">Запишитесь сегодня на <span class="site-form__header--big">БЕСПЛАТНЫЙ ЗАМЕР</span>
+          </h3>
 
+          <label class="site-form__label" for="name"> <span class="visually-hidden">Введите ваше имя</span>
+            <input class="site-form__input" type="text" id="name" name="name" placeholder="Введите ваше имя">
+          </label>
+
+          <label class="site-form__label" for="namber"> <span class="visually-hidden">Введите ваш номер</span>
+            <input class="site-form__input" type="tel" id="namber" name="namber" placeholder="+7 (___) ___-__-__" pattern="^(?:\d{10,12}|\+\d{10,12}|\w+@\w+\.\w{2,4})$">
+          </label>
+
+          <button class="site-form__button" type="submit">Вызвать замерщика!</button>
+        </form><!-- site-form -->
       </div><!-- container section-intro__container -->
     </section><!-- section-intro -->
   </main><!-- site-main -->
