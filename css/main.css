@@ -561,4 +561,111 @@ img {
   width: 142px;
   height: 42px;
 }
+
+.section-intro {
+  background-image: url(../../img/site-intro.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.section-intro__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 115px;
+  padding-bottom: 115px;
+}
+
+.section-intro__text {
+  color: #333333;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 75px;
+}
+
+.section-intro__text--big {
+  display: block;
+  margin-top: 30px;
+  color: #333333;
+  font-size: 55px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 24px;
+  text-align: left;
+}
+
+.section-intro__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-intro__iteam:not(:last-child) {
+  margin-right: 10px;
+}
+
+.section-intro__iteam {
+  position: relative;
+  z-index: 1;
+  padding: 25px 15px 25px 15px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid #ffffff;
+  background-color: #0d8fe3;
+  border-radius: 50%;
+}
+
+.section-intro__iteam::before {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  bottom: calc( 100% - 15px);
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  content: "";
+}
+
+.section-intro__iteam--quality::before {
+  width: 21px;
+  height: 26px;
+  background-image: url(../../img/quality.png);
+}
+
+.section-intro__iteam--installation::before {
+  width: 22px;
+  height: 26px;
+  background-image: url(../../img/installation.png);
+}
+
+.section-intro__iteam--warranty::before {
+  width: 18px;
+  height: 18px;
+  background-image: url(../../img/warranty.png);
+}
+
+.section-intro__iteam--truck::before {
+  width: 21px;
+  height: 17px;
+  background-image: url(../../img/truck.png);
+}
 /*# sourceMappingURL=main.css.map */
