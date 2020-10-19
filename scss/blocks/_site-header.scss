@@ -1,0 +1,124 @@
+.site-header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.site-header__info {
+width: 215px;
+margin: 0;
+color: #0096dc;
+font-size: 14px;
+line-height: normal;
+font-weight: 400;
+text-align: left;
+}
+
+.site-header__caller {
+  width: 160px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 15px;
+  color: #55a831;
+  font-size: 14px;
+  line-height: normal;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+  border: solid 1px #55a831;
+  border-radius: 10px;
+
+  &::before {
+    margin-right: 10px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url(../../img/measure.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    content: "";
+  }
+}
+
+.working-time__text-wrapper {
+  display: flex;
+  align-items: center;
+
+  &::before {
+    margin-right: 20px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../../img/clock.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    content: "";
+  }
+}
+
+.working-time__text {
+  display: block;
+  color: #333333;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.working-time__number {
+  display: block;
+  width: 98px;
+  color: #333333;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  text-align: left;
+}
+
+.site-header__phone-link {
+  display: block;
+  text-decoration: none;
+}
+
+.site-header__phone {
+  display: flex;
+  align-items: flex-start;
+
+  &::before {
+    margin-right: 15px;
+    display: block;
+    width: 20px;
+    height: 35px;
+    background-image: url(../../img/phone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    content: "";
+  }
+}
+
+.site-header__phone-number {
+  display: block;
+  color: #333333;
+  font-size: 23px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+  text-align: right;
+  text-decoration: none;
+}
+
+.site-header__phone-text {
+  width: 198px;
+  color: #0089cc;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: normal;
+  text-align: right;
+  text-decoration: underline;
+}
