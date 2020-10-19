@@ -10,7 +10,9 @@
         "../scss/_general.scss",
         "../scss/blocks/_blocks-all.scss",
         "../scss/blocks/_visually-hidden.scss",
-        "../scss/blocks/_container.scss"
+        "../scss/blocks/_container.scss",
+        "../scss/blocks/site-header.scss",
+        "../scss/blocks/site-logo.scss"
     ],
     "names": [],
     "file": "main.css"
