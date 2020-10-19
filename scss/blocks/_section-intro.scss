@@ -2,7 +2,7 @@
   background-image: url(../../img/site-intro.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: contain;
+  background-size: 1924px 646px;
 }
 
 .section-intro__container {
@@ -13,13 +13,13 @@
   padding-bottom: 115px;
 }
 
-.section-intro__text {
+.section-intro__heading {
   color: #333333;
   font-size: 26px;
   font-weight: 700;
   line-height: 24px;
   text-align: left;
-  margin-bottom: 75px;
+  margin-bottom: 220px;
 
   &--big {
     display: block;
