@@ -674,6 +674,7 @@ img {
 }
 
 .site-form {
+  max-width: 420px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -912,7 +913,7 @@ img {
 }
 
 .wood-glazing__heading {
-  margin-top: 35px;
+  margin: 0;
   margin-bottom: 30px;
   font-size: 20px;
   font-weight: 700;
@@ -925,8 +926,28 @@ img {
   color: #0d8fe3;
 }
 
+.wood-glazing__heading--cool:before {
+  margin-bottom: 35px;
+  display: block;
+  width: 585px;
+  height: 5px;
+  border-radius: 5px 0 0;
+  background-color: #0d8fe3;
+  content: "";
+}
+
 .wood-glazing__heading--warm {
   color: #ffb903;
+}
+
+.wood-glazing__heading--warm:before {
+  margin-bottom: 35px;
+  display: block;
+  width: 585px;
+  height: 5px;
+  border-radius: 0 5px 0 0;
+  background-color: #ffb903;
+  content: "";
 }
 
 .wood-glazing__cool--img {
