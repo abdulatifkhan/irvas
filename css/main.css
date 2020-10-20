@@ -566,7 +566,7 @@ img {
   background-image: url(../../img/site-intro.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 1924px 646px;
+  background-size: 1924px 760px;
 }
 
 .section-intro__container {
@@ -579,27 +579,28 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-top: 115px;
-  padding-bottom: 115px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .section-intro__heading {
+  margin: 0;
+  margin-bottom: 135px;
   color: #333333;
   font-size: 26px;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 48px;
   text-align: left;
-  margin-bottom: 220px;
 }
 
 .section-intro__heading--big {
   display: block;
-  margin-top: 30px;
+  margin-top: 35px;
   color: #333333;
   font-size: 55px;
   font-weight: 700;
   font-style: normal;
-  line-height: 24px;
+  line-height: 48px;
   text-align: left;
 }
 
@@ -616,13 +617,13 @@ img {
 }
 
 .section-intro__iteam:not(:last-child) {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .section-intro__iteam {
   position: relative;
   z-index: 1;
-  padding: 25px 15px 25px 15px;
+  padding: 50px 25px 25px 25px;
   color: #ffffff;
   font-size: 16px;
   font-weight: 700;
@@ -641,7 +642,7 @@ img {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
-  bottom: calc( 100% - 15px);
+  bottom: calc( 100% - 20px);
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -649,26 +650,26 @@ img {
 }
 
 .section-intro__iteam--quality::before {
-  width: 21px;
-  height: 26px;
+  width: 42px;
+  height: 52px;
   background-image: url(../../img/quality.png);
 }
 
 .section-intro__iteam--installation::before {
-  width: 22px;
-  height: 26px;
+  width: 44px;
+  height: 52px;
   background-image: url(../../img/installation.png);
 }
 
 .section-intro__iteam--warranty::before {
-  width: 18px;
-  height: 18px;
+  width: 35px;
+  height: 36px;
   background-image: url(../../img/warranty.png);
 }
 
 .section-intro__iteam--truck::before {
-  width: 21px;
-  height: 17px;
+  width: 42px;
+  height: 34px;
   background-image: url(../../img/truck.png);
 }
 
@@ -681,20 +682,19 @@ img {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  width: 400px;
-  padding: 20px 55px;
+  padding: 40px 50px;
   border-radius: 5px;
   background-color: #ffffff;
 }
 
 .site-form__header {
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   color: #333333;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   font-style: normal;
-  line-height: 24px;
+  line-height: 48px;
   text-align: center;
 }
 
@@ -702,10 +702,10 @@ img {
   display: block;
   margin-top: 10px;
   color: #333333;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 700;
   font-style: normal;
-  line-height: 24px;
+  line-height: 48px;
   text-align: center;
 }
 
@@ -714,23 +714,22 @@ img {
 }
 
 .site-form__input {
-  padding: 24px 50px;
-  border-radius: 5px;
+  padding: 24px 68px;
+  border-radius: 10px;
   border: 1px solid #d1d1d1;
 }
 
 .site-form__button {
   padding: 16px 10px;
   color: #000000;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
-  font-style: normal;
-  line-height: 24px;
+  line-height: 48px;
   text-align: center;
   text-transform: uppercase;
   -webkit-box-shadow: 0 1px 10px rgba(255, 153, 0, 0.4);
           box-shadow: 0 1px 10px rgba(255, 153, 0, 0.4);
-  border-radius: 5px;
+  border-radius: 10px;
   border: 1px solid #ffc600;
   background-color: #e8e8e8;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#ffed26), to(#ffb400));
@@ -741,9 +740,8 @@ img {
   margin: 0;
   margin-top: 20px;
   color: #666666;
-  font-size: 16px;
+  font-size: 11px;
   font-weight: 300;
-  font-style: normal;
-  line-height: 24px;
+  line-height: 48px;
 }
 /*# sourceMappingURL=main.css.map */

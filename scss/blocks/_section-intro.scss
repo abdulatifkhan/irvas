@@ -2,33 +2,34 @@
   background-image: url(../../img/site-intro.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 1924px 646px;
+  background-size: 1924px 760px;
 }
 
 .section-intro__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 115px;
-  padding-bottom: 115px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .section-intro__heading {
+  margin: 0;
+  margin-bottom: 135px;
   color: #333333;
   font-size: 26px;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 48px;
   text-align: left;
-  margin-bottom: 220px;
 
   &--big {
     display: block;
-    margin-top: 30px;
+    margin-top: 35px;
     color: #333333;
     font-size: 55px;
     font-weight: 700;
     font-style: normal;
-    line-height: 24px;
+    line-height: 48px;
     text-align: left;
   }
 }
@@ -40,13 +41,13 @@
 }
 
 .section-intro__iteam:not(:last-child) {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .section-intro__iteam {
   position: relative;
   z-index: 1;
-  padding: 25px 15px 25px 15px;
+  padding: 50px 25px 25px 25px;
   color: #ffffff;
   font-size: 16px;
   font-weight: 700;
@@ -64,33 +65,33 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
-    bottom: calc( 100% - 15px );
+    bottom: calc( 100% - 20px );
     left: 50%;
     transform: translateX(-50%);
     content: "";
   }
 
   &--quality::before {
-    width: 21px;
-    height: 26px;
+    width: 42px;
+    height: 52px;
     background-image: url(../../img/quality.png);
   }
 
   &--installation::before {
-    width: 22px;
-    height: 26px;
+    width: 44px;
+    height: 52px;
     background-image: url(../../img/installation.png);
   }
 
   &--warranty::before {
-    width: 18px;
-    height: 18px;
+    width: 35px;
+    height: 36px;
     background-image: url(../../img/warranty.png);
   }
 
   &--truck::before {
-    width: 21px;
-    height: 17px;
+    width: 42px;
+    height: 34px;
     background-image: url(../../img/truck.png);
   }
 }
