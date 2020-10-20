@@ -1,0 +1,225 @@
+.section-glazing__container {
+  padding-top: 70px;
+  padding-bottom: 150px;
+}
+
+.section-glazing__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #333333;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+
+  &::after {
+    display: block;
+    margin-top: 23px;
+    width: 170px;
+    height: 2px;
+    background-image: url(../../img/line.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    content: "";
+  }
+}
+
+.section-glazing__list {
+  @include reset-list;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-glazing__iteam {
+  width: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #249ae6;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+
+  &::before {
+    margin-bottom: 30px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    content: "";
+  }
+}
+
+.wood-glazing {
+  &:before {
+    width: 100px;
+    height: 100px;
+    background-image: url(../../img/wood-glazing.png);
+  }
+}
+
+.aluminum-glazing {
+  &:before {
+    width: 100px;
+    height: 100px;
+    background-image: url(../../img/aluminum-glazing.png);
+  }
+}
+
+.plastics-glazing {
+  &:before {
+    width: 100px;
+    height: 100px;
+    background-image: url(../../img/plastics-glazing.png);
+  }
+}
+
+.french-glazing {
+  &:before {
+    width: 100px;
+    height: 100px;
+    background-image: url(../../img/french-glazing.png);
+  }
+}
+
+.extending-glazing {
+  &:before {
+    width: 100px;
+    height: 100px;
+    background-image: url(../../img/extending-glazing.png);
+  }
+}
+
+.section-glazing__link {
+  color: #249ae6;
+  text-decoration: underline;
+}
+
+.section-glazing__link--active {
+  color: #464646;
+  text-decoration: none;
+}
+
+.wood-glazing__box {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wood-glazing__cool {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 585px;
+  border-radius: 5px 0 0 5px;
+  background-image: linear-gradient(to bottom, rgba(13, 143, 227, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.wood-glazing__warm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 585px;
+  border-radius: 0 5px 5px 0;
+  background-image: linear-gradient(to bottom,rgba(255, 185, 3, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.wood-glazing__heading {
+  margin-top: 35px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+
+  &--cool {
+    color: #0d8fe3;
+  }
+
+  &--warm {
+    color: #ffb903;
+  }
+}
+
+.wood-glazing__cool--img {
+  width: 466px;
+  height: 300px;
+  margin-bottom: 37px;
+}
+
+.wood-glazing__list {
+  @include reset-list;
+  margin-bottom: 45px;
+}
+
+.wood-glazing__iteam {
+  display: flex;
+  align-items: center;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+
+  &::before {
+    margin-right: 17px;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../../img/list-point.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    content: "";
+  }
+}
+
+.wood-glazing__calculate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  margin-bottom: 48px;
+}
+
+.calculate__box {
+  width: 155px;
+}
+
+.calculate__sum {
+  display: block;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+
+.calculate__text {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+
+.calculate__button {
+  padding: 5px 5px;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  box-shadow: 0 2px 20px rgba(255, 153, 0, 0.4);
+  border-radius: 10px;
+  border: 1px solid #ffc600;
+  background-color: #e8e8e8;
+  background-image: linear-gradient(to bottom, #ffed26 0%, #ffb400 100%);
+}
