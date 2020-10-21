@@ -1753,4 +1753,43 @@ img {
   line-height: 26px;
   text-decoration: underline;
 }
+
+.site-footer__container {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.site-footer__text {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.site-footer__phone-number {
+  margin-bottom: 5px;
+  display: block;
+  color: #333333;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.site-footer__phone-email {
+  display: block;
+  color: #0090d5;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: right;
+}
 /*# sourceMappingURL=main.css.map */
