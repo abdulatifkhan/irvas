@@ -56,7 +56,6 @@
   color: #000000;
   text-decoration: none;
   border-bottom: 1px dotted #000000;
-  background-color: #ffffff;
 }
 
 .section-order__link--active {
@@ -68,7 +67,6 @@
 .exterior-finish__box {
   display: flex;
   align-items: center;
-  // justify-content: space-between;
 }
 
 .exterior-finish__img {
@@ -82,8 +80,6 @@
   width: 400px;
   display: flex;
   margin-left: 35px;
-  // align-items: center;
-  // justify-content: space-between;
   flex-wrap: wrap;
 }
 
