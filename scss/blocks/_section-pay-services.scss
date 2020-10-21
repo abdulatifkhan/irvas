@@ -1,0 +1,58 @@
+.section-pay-services__container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.section-pay-services__heading {
+  margin: 0;
+  margin-bottom: 80px;
+  color: #333333;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+}
+
+.section-pay-services__list {
+  @include reset-list;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-pay-services__iteam {
+  display: flex;
+  align-items: center;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+
+  &::before {
+    margin-right: 30px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    content: "";
+  }
+
+  &--in-cash::before {
+    width: 70px;
+    height: 70px;
+    background-image: url(../../img/in-cash.png);
+  }
+
+  &--bank-card::before {
+    width: 70px;
+    height: 54px;
+    background-image: url(../../img/bank-card.png);
+  }
+
+  &--cashless-payments::before {
+    width: 70px;
+    height: 59px;
+    background-image: url(../../img/cashless-payments.png);
+  }
+}
