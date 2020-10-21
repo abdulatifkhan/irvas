@@ -167,7 +167,7 @@
 
         <ul class="section-order__list">
           <li class="section-order__iteam">
-            <a class="section-order__link" href="#exterior-finish">ВНУТРЕННЯЯ ОТДЕЛКА</a>
+            <a class="section-order__link section-order__link--active" href="#exterior-finish">ВНУТРЕННЯЯ ОТДЕЛКА</a>
           </li>
           <li class="section-order__iteam exterior-finish section-order__iteam--active">
             <a class="section-order__link" href="">ВНЕШНЯЯ ОТДЕЛКА</a>
@@ -181,59 +181,59 @@
         </ul><!-- section-order__list -->
 
         <div class="exterior-finish__box" id="exterior-finish">
-          <img src="img/exterior-finish.jpg" alt="Image of exterior finish" width="300" height="440" srcset="img/exterior-finish.jpg 1x, img/exterior-finish@2x.jpg 2x">
+          <img class="exterior-finish__img" src="img/exterior-finish.jpg" alt="Image of exterior finish" width="300" height="440" srcset="img/exterior-finish.jpg 1x, img/exterior-finish@2x.jpg 2x">
 
           <ul class="exterior-finish__list">
-            <li class="exterior-finish__iteam">
-              <span class="exterior-finish__name">Вагонка</span>
-              <span class="exterior-finish__sum">600 руб. кв.м.</span>
-              <span class="exterior-finish__goods">с материалом</span>
+            <li class="exterior-finish__iteam exterior-finish__iteam--lining">
+              <p class="exterior-finish__name">Вагонка</p>
+              <p class="exterior-finish__sum">600 руб. кв.м.</p>
+              <p class="exterior-finish__goods">с материалом</p>
             </li>
-            <li class="exterior-finish__iteam">
-              <span class="exterior-finish__name">Пластиковая
-                вагонка</span>
-              <span class="exterior-finish__sum">750 руб. кв. м</span>
-              <span class="exterior-finish__goods">с материалом</span>
+            <li class="exterior-finish__iteam exterior-finish__iteam--plastic-lining">
+              <p class="exterior-finish__name">Пластиковая
+                вагонка</p>
+              <p class="exterior-finish__sum">750 руб. кв. м</p>
+              <p class="exterior-finish__goods">с материалом</p>
             </li>
-            <li class="exterior-finish__iteam">
-              <span class="exterior-finish__name">ПВХ-панели
-              </span>
-              <span class="exterior-finish__sum">800 руб.кв. м.</span>
-              <span class="exterior-finish__goods">с материалом</span>
+            <li class="exterior-finish__iteam exterior-finish__iteam--pvc-panels">
+              <p class="exterior-finish__name">ПВХ-панели
+              </p>
+              <p class="exterior-finish__sum">800 руб.кв. м.</p>
+              <p class="exterior-finish__goods">с материалом</p>
             </li>
-            <li class="exterior-finish__iteam">
-              <span class="exterior-finish__name">Настил пола из ламината</span>
-              <span class="exterior-finish__sum">1250 руб. Кв. М</span>
-              <span class="exterior-finish__goods">с материалом</span>
+            <li class="exterior-finish__iteam exterior-finish__iteam--laminate-flooring">
+              <p class="exterior-finish__name">Настил пола из ламината</p>
+              <p class="exterior-finish__sum">1250 руб. Кв. М</p>
+              <p class="exterior-finish__goods">с материалом</p>
             </li>
-            <li class="exterior-finish__iteam">
-              <span class="exterior-finish__name">Настил пола из дерева</span>
-              <span class="exterior-finish__sum">1650 руб. Кв. М</span>
-              <span class="exterior-finish__goods">с материалом</span>
+            <li class="exterior-finish__iteam exterior-finish__iteam--wood-flooring">
+              <p class="exterior-finish__name">Настил пола из дерева</p>
+              <p class="exterior-finish__sum">1650 руб. Кв. М</p>
+              <p class="exterior-finish__goods">с материалом</p>
             </li>
           </ul><!-- exterior-finish__list -->
+
+          <form class="site-form" action="https://acho.htmlacademy.com">
+            <h3 class="site-form__header">Запишитесь сегодня на <span class="site-form__header--big">БЕСПЛАТНЫЙ ЗАМЕР</span>
+            </h3>
+  
+            <div class="site-form__block">
+              <label class="site-form__label" for="name"> <span class="visually-hidden">Введите ваше имя</span>
+                <input class="site-form__input" type="text" id="name" name="name" placeholder="Введите ваше имя">
+              </label>
+            </div>
+  
+            <div class="site-form__block">
+              <label class="site-form__label" for="namber"> <span class="visually-hidden">Введите ваш номер</span>
+                <input class="site-form__input" type="tel" id="namber" name="namber" placeholder="+7 (___) ___-__-__" pattern="^(?:\d{10,12}|\+\d{10,12}|\w+@\w+\.\w{2,4})$">
+              </label>
+            </div>
+  
+            <button class="site-form__button" type="submit">Вызвать замерщика!</button>
+  
+            <p class="site-form__text">Ваши данные конфиденциальны</p>
+          </form><!-- site-form -->
         </div><!-- exterior-finish__box -->
-
-        <form class="site-form" action="https://acho.htmlacademy.com">
-          <h3 class="site-form__header">Запишитесь сегодня на <span class="site-form__header--big">БЕСПЛАТНЫЙ ЗАМЕР</span>
-          </h3>
-
-          <div class="site-form__block">
-            <label class="site-form__label" for="name"> <span class="visually-hidden">Введите ваше имя</span>
-              <input class="site-form__input" type="text" id="name" name="name" placeholder="Введите ваше имя">
-            </label>
-          </div>
-
-          <div class="site-form__block">
-            <label class="site-form__label" for="namber"> <span class="visually-hidden">Введите ваш номер</span>
-              <input class="site-form__input" type="tel" id="namber" name="namber" placeholder="+7 (___) ___-__-__" pattern="^(?:\d{10,12}|\+\d{10,12}|\w+@\w+\.\w{2,4})$">
-            </label>
-          </div>
-
-          <button class="site-form__button" type="submit">Вызвать замерщика!</button>
-
-          <p class="site-form__text">Ваши данные конфиденциальны</p>
-        </form><!-- site-form -->
       </div><!-- section-order__container container -->
     </section><!-- section-order -->
   </main><!-- site-main -->

@@ -752,6 +752,8 @@ img {
 }
 
 .section-glazing__heading {
+  margin: 0;
+  margin-bottom: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1038,5 +1040,203 @@ img {
   background-color: #e8e8e8;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#ffed26), to(#ffb400));
   background-image: linear-gradient(to bottom, #ffed26 0%, #ffb400 100%);
+}
+
+.section-order {
+  background-color: #f7f7f7;
+}
+
+.section-order__container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.section-order__heading {
+  margin: 0;
+  margin-bottom: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #333333;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-order__heading::after {
+  display: block;
+  margin-top: 23px;
+  width: 170px;
+  height: 2px;
+  background-image: url(../../img/line.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  content: "";
+}
+
+.section-order__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.section-order__iteam {
+  display: block;
+  width: 300px;
+  height: 100px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-order__link {
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 1px dotted #000000;
+  background-color: #ffffff;
+}
+
+.section-order__link--active {
+  color: #0085db;
+  border: none;
+}
+
+.exterior-finish__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.exterior-finish__img {
+  display: block;
+  width: 300px;
+  height: 440px;
+}
+
+.exterior-finish__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 35px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.exterior-finish__iteam:not(:last-child) {
+  margin-right: 35px;
+}
+
+.exterior-finish__iteam {
+  margin-bottom: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.exterior-finish__iteam::before {
+  width: 108px;
+  margin-bottom: 20px;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  border-radius: 50%;
+  content: "";
+}
+
+.exterior-finish__iteam--lining::before {
+  width: 70px;
+  height: 70px;
+  background-image: url(../../img/lining.jpg);
+}
+
+.exterior-finish__iteam--plastic-lining::before {
+  width: 70px;
+  height: 70px;
+  background-image: url(../../img/plastic-lining.jpg);
+}
+
+.exterior-finish__iteam--pvc-panels::before {
+  width: 70px;
+  height: 70px;
+  background-image: url(../../img/pvc-panels.jpg);
+}
+
+.exterior-finish__iteam--laminate-flooring::before {
+  width: 70px;
+  height: 70px;
+  background-image: url(../../img/laminate-flooring.jpg);
+}
+
+.exterior-finish__iteam--wood-flooring::before {
+  width: 70px;
+  height: 70px;
+  background-image: url(../../img/laminate-flooring.jpg);
+}
+
+.exterior-finish__name {
+  margin: 0;
+  margin-bottom: 10px;
+  width: 90px;
+  height: 11px;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+}
+
+.exterior-finish__sum {
+  margin-bottom: 0;
+  color: #0d8fe3;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+}
+
+.exterior-finish__goods {
+  margin: 0;
+  color: #000000;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
