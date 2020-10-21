@@ -735,6 +735,7 @@ img {
   background-color: #e8e8e8;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#ffed26), to(#ffb400));
   background-image: linear-gradient(to bottom, #ffed26 0%, #ffb400 100%);
+  cursor: pointer;
 }
 
 .site-form__text {
@@ -1040,6 +1041,7 @@ img {
   background-color: #e8e8e8;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#ffed26), to(#ffb400));
   background-image: linear-gradient(to bottom, #ffed26 0%, #ffb400 100%);
+  cursor: pointer;
 }
 
 .section-order {
@@ -1525,5 +1527,118 @@ img {
   width: 70px;
   height: 59px;
   background-image: url(../../img/cashless-payments.png);
+}
+
+.section-sale {
+  background-image: url(../../img/site-sale.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.section-sale__container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-sale__heading {
+  margin: 0;
+  margin-bottom: 80px;
+  color: #008cce;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+}
+
+.section-sale__text {
+  margin: 0;
+  margin-bottom: 80px;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+}
+
+.section-sale__time-box {
+  width: 260px;
+  height: 160px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #d1d1d1;
+  background-color: #ffffff;
+}
+
+.time-box__heading {
+  margin: 0;
+  margin-bottom: 20px;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 33px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.time-box__block {
+  position: relative;
+  z-index: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.time-box__block::before {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  -webkit-transform: translateX(-51%);
+          transform: translateX(-51%);
+  top: 30%;
+  width: 220px;
+  height: 1px;
+  background-color: #000000;
+  opacity: 0.1;
+  content: "";
+}
+
+.time-box__day-number {
+  width: 40px;
+  height: 50px;
+  padding: 8px 0;
+  color: #efefef;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33px;
+  text-align: center;
+  border-radius: 10px 10px 10px 10px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#393939), color-stop(50%, #141414));
+  background-image: linear-gradient(to bottom, #393939 0%, #141414 50%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(51%, #393939), to(#141414));
+  background-image: linear-gradient(to top, #393939 51%, #141414 100%);
+}
+
+.time-box__day-text {
+  color: #000000;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 33px;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
