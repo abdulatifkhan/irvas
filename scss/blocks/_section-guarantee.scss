@@ -1,0 +1,101 @@
+.section-guarantee {
+  background-color: #007ab3;
+  background-image: linear-gradient(to bottom, #0d8fe3 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.section-guarantee__container {
+  padding-top: 80px;
+}
+
+.section-guarantee__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 80px;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+
+  &::after {
+    display: block;
+    margin-top: 23px;
+    width: 170px;
+    height: 2px;
+    background-image: url(../../img/line-white.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    content: "";
+  }
+}
+
+.section-guarantee__list {
+  @include reset-list;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 863px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.section-guarantee__iteam {
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+
+  &::before {
+    margin-bottom: 30px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    content: "";
+  }
+
+  &--high-quality::before {
+    width: 60px;
+    height: 70px;
+    background-image: url(../../img/high-quality.png);
+  }
+
+  &--turnkey-works::before {
+    width: 52px;
+    height: 70px;
+    background-image: url(../../img/turnkey-works.png);
+  }
+
+  &--time-installation::before {
+    width: 70px;
+    height: 70px;
+    background-image: url(../../img/time-installation.png);
+  }
+
+  &--manufacturer-prices::before {
+    width: 70px;
+    height: 58px;
+    background-image: url(../../img/manufacturer-prices.png);
+  }
+
+  &--free-consultation::before {
+    width: 68px;
+    height: 70px;
+    background-image: url(../../img/free-consultation.png);
+  }
+
+  &--warmth-balcony::before {
+    width: 70px;
+    height: 70px;
+    background-image: url(../../img/warmth-balcony.png);
+  }
+}

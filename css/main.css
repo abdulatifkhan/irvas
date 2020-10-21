@@ -1329,4 +1329,130 @@ img {
   width: 270px;
   height: 270px;
 }
+
+.section-guarantee {
+  background-color: #007ab3;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0d8fe3), to(rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(to bottom, #0d8fe3 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.section-guarantee__container {
+  padding-top: 80px;
+}
+
+.section-guarantee__heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  margin-bottom: 80px;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-guarantee__heading::after {
+  display: block;
+  margin-top: 23px;
+  width: 170px;
+  height: 2px;
+  background-image: url(../../img/line-white.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  content: "";
+}
+
+.section-guarantee__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 863px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.section-guarantee__iteam {
+  margin-bottom: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.section-guarantee__iteam::before {
+  margin-bottom: 30px;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  content: "";
+}
+
+.section-guarantee__iteam--high-quality::before {
+  width: 60px;
+  height: 70px;
+  background-image: url(../../img/high-quality.png);
+}
+
+.section-guarantee__iteam--turnkey-works::before {
+  width: 52px;
+  height: 70px;
+  background-image: url(../../img/turnkey-works.png);
+}
+
+.section-guarantee__iteam--time-installation::before {
+  width: 70px;
+  height: 70px;
+  background-image: url(../../img/time-installation.png);
+}
+
+.section-guarantee__iteam--manufacturer-prices::before {
+  width: 70px;
+  height: 58px;
+  background-image: url(../../img/manufacturer-prices.png);
+}
+
+.section-guarantee__iteam--free-consultation::before {
+  width: 68px;
+  height: 70px;
+  background-image: url(../../img/free-consultation.png);
+}
+
+.section-guarantee__iteam--warmth-balcony::before {
+  width: 70px;
+  height: 70px;
+  background-image: url(../../img/warmth-balcony.png);
+}
 /*# sourceMappingURL=main.css.map */
