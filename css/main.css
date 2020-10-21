@@ -1726,4 +1726,31 @@ img {
   line-height: 26px;
   text-align: left;
 }
+
+.section-have-questions {
+  background-color: #00a0eb;
+}
+
+.section-have-questions__container {
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+
+.section-have-questions__text {
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.section-have-questions__link {
+  margin-left: 40px;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 26px;
+  text-decoration: underline;
+}
 /*# sourceMappingURL=main.css.map */
