@@ -39,7 +39,7 @@
   </header><!-- site-header -->
 
 
-    <!-- SITE MAIN -->
+  <!-- SITE MAIN -->
   <main class="site-main">
 
     <!-- SECTION INTRO -->
@@ -56,19 +56,21 @@
           </ul><!-- section-intro__list -->
         </div><!-- section-intro__wrapper -->
 
-        <form class="site-form" action="https://acho.htmlacademy.com">
+        <form class="site-form" action="https://echo.htmlacademy.ru" method="POST">
           <h3 class="site-form__header">Запишитесь сегодня на <span class="site-form__header--big">БЕСПЛАТНЫЙ ЗАМЕР</span>
           </h3>
 
           <div class="site-form__block">
-            <label class="site-form__label" for="name"> <span class="visually-hidden">Введите ваше имя</span>
-              <input class="site-form__input" type="text" id="name" name="name" placeholder="Введите ваше имя">
+            <label class="site-form__label" for="intro_name">
+              <span class="visually-hidden">Введите ваше имя</span>
+              <input class="site-form__input" type="text" id="intro_name" name="name" placeholder="Введите ваше имя" minlength="3" maxlength="15" required>
             </label>
           </div>
 
           <div class="site-form__block">
-            <label class="site-form__label" for="namber"> <span class="visually-hidden">Введите ваш номер</span>
-              <input class="site-form__input" type="tel" id="namber" name="namber" placeholder="+7 (___) ___-__-__" pattern="^(?:\d{10,12}|\+\d{10,12}|\w+@\w+\.\w{2,4})$">
+            <label class="site-form__label" for="intro_namber">
+              <span class="visually-hidden">Введите ваш номер</span>
+              <input class="site-form__input" type="tel" id="intro_namber" name="namber" placeholder="+7 (___) ___-__-__" pattern="^(?:\d{10,12}|\+\d{10,12}|\w+@\w+\.\w{2,4})$" required>
             </label>
           </div>
 
@@ -213,19 +215,21 @@
             </li>
           </ul><!-- exterior-finish__list -->
 
-          <form class="site-form" action="https://acho.htmlacademy.com">
+          <form class="site-form" action="https://echo.htmlacademy.ru" method="POST">
             <h3 class="site-form__header">Запишитесь сегодня на <span class="site-form__header--big">БЕСПЛАТНЫЙ ЗАМЕР</span>
             </h3>
   
             <div class="site-form__block">
-              <label class="site-form__label" for="name"> <span class="visually-hidden">Введите ваше имя</span>
-                <input class="site-form__input" type="text" id="name" name="name" placeholder="Введите ваше имя">
+              <label class="site-form__label" for="order_name">
+                <span class="visually-hidden">Введите ваше имя</span>
+                <input class="site-form__input" type="text" id="order_name" name="name" placeholder="Введите ваше имя" minlength="3" maxlength="15" required>
               </label>
             </div>
   
             <div class="site-form__block">
-              <label class="site-form__label" for="namber"> <span class="visually-hidden">Введите ваш номер</span>
-                <input class="site-form__input" type="tel" id="namber" name="namber" placeholder="+7 (___) ___-__-__" pattern="^(?:\d{10,12}|\+\d{10,12}|\w+@\w+\.\w{2,4})$">
+              <label class="site-form__label" for="order_namber">
+                <span class="visually-hidden">Введите ваш номер</span>
+                <input class="site-form__input" type="tel" id="order_namber" name="namber" placeholder="+7 (___) ___-__-__" pattern="^(?:\d{10,12}|\+\d{10,12}|\w+@\w+\.\w{2,4})$" required>
               </label>
             </div>
   
@@ -237,6 +241,7 @@
       </div><!-- section-order__container container -->
     </section><!-- section-order -->
 
+    <!-- SECTION OUR-WORK -->
     <section class="our-work">
       <div class="our-work__container container">
         <h3 class="our-work__heading">Наши работы</h3>
@@ -248,30 +253,45 @@
             </a>
           </li>
           <li class="our-work__iteam">
-            <a class="our-work__link" href="#"><img class="our-work__img" src="img/our-work-2.jpg" width="270" height="270" alt="img/our-work-2.jpg 1x, img/our-work-2@2x.jpg 2x"></a>
+            <a class="our-work__link" href="#">
+              <img class="our-work__img" src="img/our-work-2.jpg" width="270" height="270" alt="img/our-work-2.jpg 1x, img/our-work-2@2x.jpg 2x">
+            </a>
           </li>
           <li class="our-work__iteam">
-            <a class="our-work__link" href="#"><img class="our-work__img" src="img/our-work-3.jpg" width="270" height="270" alt="img/our-work-3.jpg 1x, img/our-work-3@2x.jpg 2x"></a>
+            <a class="our-work__link" href="#">
+              <img class="our-work__img" src="img/our-work-3.jpg" width="270" height="270" alt="img/our-work-3.jpg 1x, img/our-work-3@2x.jpg 2x">
+            </a>
           </li>
           <li class="our-work__iteam">
-            <a class="our-work__link" href="#"><img class="our-work__img" src="img/our-work-4.jpg" width="270" height="270" alt="img/our-work-4.jpg 1x, img/our-work-4@2x.jpg 2x"></a>
+            <a class="our-work__link" href="#">
+              <img class="our-work__img" src="img/our-work-4.jpg" width="270" height="270" alt="img/our-work-4.jpg 1x, img/our-work-4@2x.jpg 2x">
+            </a>
           </li>
           <li class="our-work__iteam">
-            <a class="our-work__link" href="#"><img class="our-work__img" src="img/our-work-5.jpg" width="270" height="270" alt="img/our-work-5.jpg 1x, img/our-work-5@2x.jpg 2x"></a>
+            <a class="our-work__link" href="#">
+              <img class="our-work__img" src="img/our-work-5.jpg" width="270" height="270" alt="img/our-work-5.jpg 1x, img/our-work-5@2x.jpg 2x">
+            </a>
           </li>
           <li class="our-work__iteam">
-            <a class="our-work__link" href="#"><img class="our-work__img" src="img/our-work-6.jpg" width="270" height="270" alt="img/our-work-6.jpg 1x, img/our-work-6@2x.jpg 2x"></a>
+            <a class="our-work__link" href="#">
+              <img class="our-work__img" src="img/our-work-6.jpg" width="270" height="270" alt="img/our-work-6.jpg 1x, img/our-work-6@2x.jpg 2x">
+            </a>
           </li>
           <li class="our-work__iteam">
-            <a class="our-work__link" href="#"><img class="our-work__img" src="img/our-work-7.jpg" width="270" height="270" alt="img/our-work-7.jpg 1x, img/our-work-7@2x.jpg 2x"></a>
+            <a class="our-work__link" href="#">
+              <img class="our-work__img" src="img/our-work-7.jpg" width="270" height="270" alt="img/our-work-7.jpg 1x, img/our-work-7@2x.jpg 2x">
+            </a>
           </li>
           <li class="our-work__iteam">
-            <a class="our-work__link" href="#"><img class="our-work__img" src="img/our-work-8.jpg" width="270" height="270" alt="img/our-work-8.jpg 1x, img/our-work-8@2x.jpg 2x"></a>
+            <a class="our-work__link" href="#">
+              <img class="our-work__img" src="img/our-work-8.jpg" width="270" height="270" alt="img/our-work-8.jpg 1x, img/our-work-8@2x.jpg 2x">
+            </a>
           </li>
         </ul><!-- our-work__list -->
       </div><!-- our-work__container container -->
     </section><!-- our-work -->
 
+    <!-- SECTION GUARANTEE -->
     <section class="section-guarantee">
       <div class="container section-guarantee__container">
         <h3 class="section-guarantee__heading">МЫ ГАРАНТИРУЕМ ВАМ</h3>
@@ -287,6 +307,7 @@
       </div><!-- container guarantee__container -->
     </section><!-- section-guarantee -->
 
+    <!-- SECTION PAY-SERVICES -->
     <section class="section-pay-services">
       <div class="container section-pay-services__container">
         <h3 class="section-pay-services__heading">Вы можете оплатить наши услуги:</h3>
@@ -305,6 +326,7 @@
       </div><!-- container section-pay-services__container -->
     </section><!-- section-pay-services -->
 
+    <!-- SECTION SALE -->
     <section class="section-sale">
       <div class="container section-sale__container">
         <div class="section-sale__wrapper">
@@ -343,19 +365,21 @@
           </div><!-- section-sale__time-box -->
         </div><!-- section-sale__wrapper -->
 
-        <form class="site-form" action="https://acho.htmlacademy.com">
+        <form class="site-form" action="https://echo.htmlacademy.ru" method="POST">
           <h3 class="site-form__header">Запишитесь сегодня на <span class="site-form__header--big">БЕСПЛАТНЫЙ ЗАМЕР</span>
           </h3>
 
           <div class="site-form__block">
-            <label class="site-form__label" for="name"> <span class="visually-hidden">Введите ваше имя</span>
-              <input class="site-form__input" type="text" id="name" name="name" placeholder="Введите ваше имя">
+            <label class="site-form__label" for="sale_name">
+              <span class="visually-hidden">Введите ваше имя</span>
+              <input class="site-form__input" type="text" id="sale_name" name="name" placeholder="Введите ваше имя" minlength="3" maxlength="15" required>
             </label>
           </div>
 
           <div class="site-form__block">
-            <label class="site-form__label" for="namber"> <span class="visually-hidden">Введите ваш номер</span>
-              <input class="site-form__input" type="tel" id="namber" name="namber" placeholder="+7 (___) ___-__-__" pattern="^(?:\d{10,12}|\+\d{10,12}|\w+@\w+\.\w{2,4})$">
+            <label class="site-form__label" for="sale_namber">
+              <span class="visually-hidden">Введите ваш номер</span>
+              <input class="site-form__input" type="tel" id="sale_namber" name="namber" placeholder="+7 (___) ___-__-__" pattern="^(?:\d{10,12}|\+\d{10,12}|\w+@\w+\.\w{2,4})$" required>
             </label>
           </div>
 
@@ -366,6 +390,7 @@
       </div><!-- container section-sale__container -->
     </section><!-- section-sale -->
 
+    <!-- SECTION FIND-US -->
     <section class="section-find-us">
       <div class="container section-find-us__container">
         <h3 class="section-find-us__heading">КАК НАС НАЙТИ</h3>
@@ -396,8 +421,11 @@
       </div><!-- container section-find-us__container -->
     </section><!-- section-find-us -->
 
+    <!-- SECTION HAVE-QUESTIONS -->
     <section class="section-have-questions">
       <div class="container section-have-questions__container">
+        <h3 class="visually-hidden">For more questions</h3>
+
         <p class="section-have-questions__text">
           Остались вопросы? 
           <a class="section-have-questions__link" href="tel:+7(495)646-61-71">
@@ -408,7 +436,7 @@
     </section><!-- section-have-questions -->
   </main><!-- site-main -->
 
-      <!-- SITE FOOTER -->
+  <!-- SITE FOOTER -->
   <footer class="site-footer">
     <div class="container site-footer__container">
       <div class="site-footer__text">2017 © Ирвас окна  <br>Работаем без выходных</div>
@@ -421,8 +449,6 @@
         <a class="site-footer__phone-number" href="tel:+7(495)646-61-71">+7(495)646-61-71</a>
         <a class="site-footer__phone-email" href="info@irvasokna.ru" target="_blank">info@irvasokna.ru</a>
       </div><!-- site-footer__info -->
-
-
     </div><!-- container site-footer__container -->
   </footer><!-- site-footer -->
   <script src="js/main.js"></script>
