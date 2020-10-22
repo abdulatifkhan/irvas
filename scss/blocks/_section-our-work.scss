@@ -64,10 +64,17 @@
   display: block;
   width: 270px;
   height: 270px;
+  overflow: hidden;
+  border-radius: 10px;
+
+  &:hover .our-work__img {
+    transform: scale(1.1);
+  }
 }
 
 .our-work__img {
   display: inline-block;
   width: 270px;
   height: 270px;
+  transition: all 0.3s ease;
 }

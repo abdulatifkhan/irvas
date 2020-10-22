@@ -42,7 +42,12 @@
 }
 
 .section-order__iteam {
-  display: block;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   width: 300px;
   height: 100px;
   font-size: 20px;
@@ -50,9 +55,40 @@
   line-height: 48px;
   text-align: center;
   text-transform: uppercase;
+
+  &--active {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 100%);
+
+    &::before {
+      position: absolute;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      display: block;
+      margin-bottom: 30px;
+      width: 285px;
+      height: 10px;
+      background-color: #0d8fe3;
+      content: "";
+    }
+
+    &::after {
+      position: absolute;
+      z-index: 1;
+      top: 10px;
+      display: inline-block;
+      width: 0;
+      height: 0;
+      border-left: 11px solid transparent;
+      border-right: 11px solid transparent;
+      border-top: 11px solid #0d8fe3;
+      content: "";
+    }
+  }
 }
 
 .section-order__link {
+  height: 37px;
   color: #000000;
   text-decoration: none;
   border-bottom: 1px dotted #000000;
@@ -61,7 +97,6 @@
 .section-order__link--active {
   color: #0085db;
   border: none;
-  // background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
 .exterior-finish__box {
