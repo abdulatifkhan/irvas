@@ -18,6 +18,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .section-pay-services__iteam {
@@ -55,4 +56,33 @@
     height: 59px;
     background-image: url(../../img/cashless-payments.png);
   }
+}
+
+@include breakpoint-down (840px) {
+
+  .section-pay-services__container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .section-pay-services__heading {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 40px;
+  }
+
+  .section-pay-services__iteam {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: right;
+  }
+
+  .section-pay-services__iteam:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+
+@include breakpoint-down (720px) {
+
 }
