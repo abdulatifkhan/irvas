@@ -263,11 +263,12 @@
   }
 }
 
-@include breakpoint-down (600px) {
+@include breakpoint-down (720px) {
 
   .section-order__heading {
     font-size: 20px;
     line-height: 24px;
+    color: red;
   }
   
 }
