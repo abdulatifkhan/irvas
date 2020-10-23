@@ -2,7 +2,6 @@
   background-image: url(../../img/site-intro.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  // background-size: 1920px 640px;
   background-size: cover;
 }
 
@@ -99,4 +98,39 @@
     height: 34px;
     background-image: url(../../img/truck.png);
   }
+}
+
+@include breakpoint-down (1360px) {
+
+  .section-intro__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .section-intro__heading {
+    text-align: center;
+    margin-bottom: 100px;
+
+    &--big {
+      margin-top: 15px;
+    }
+  }
+
+  .section-intro__list {
+    margin-bottom: 20px;
+  }
+}
+
+@include breakpoint-down (768px) {
+
+
+}
+
+@include breakpoint-down (600px) {
+
+
 }

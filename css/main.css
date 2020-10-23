@@ -713,6 +713,36 @@ img {
   background-image: url(../../img/truck.png);
 }
 
+@media only screen and (max-width: 1360px) {
+  .section-intro__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .section-intro__heading {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  .section-intro__heading--big {
+    margin-top: 15px;
+  }
+  .section-intro__list {
+    margin-bottom: 20px;
+  }
+}
+
 .site-form {
   max-width: 370px;
   display: -webkit-box;
