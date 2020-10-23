@@ -78,3 +78,31 @@
   height: 270px;
   transition: all 0.3s ease;
 }
+
+@include breakpoint-down (840px) {
+
+  .our-work__container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .our-work__heading {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 40px;
+  
+    &::after {
+      margin-top: 10px;
+    }
+  }
+
+  .our-work__list {
+    justify-content: space-around;
+  }
+
+}
+
+
+@include breakpoint-down (720px) {
+
+}

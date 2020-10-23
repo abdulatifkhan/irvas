@@ -1618,6 +1618,25 @@ img {
   transition: all 0.3s ease;
 }
 
+@media only screen and (max-width: 840px) {
+  .our-work__container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .our-work__heading {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 40px;
+  }
+  .our-work__heading::after {
+    margin-top: 10px;
+  }
+  .our-work__list {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
 .section-guarantee {
   background-color: #007ab3;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#0d8fe3), to(rgba(255, 255, 255, 0)));
