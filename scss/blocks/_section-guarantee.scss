@@ -99,3 +99,34 @@
     background-image: url(../../img/warmth-balcony.png);
   }
 }
+
+@include breakpoint-down (840px) {
+
+  .section-guarantee__container {
+    padding-top: 40px;
+  }
+
+  .section-guarantee__heading {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 40px;
+  
+    &::after {
+      margin-top: 10px;
+    }
+  }
+
+  .section-guarantee__list {
+    justify-content: space-around;
+  }
+
+  .section-guarantee__iteam {
+    margin-bottom: 40px;
+    width: 220px;
+  }
+}
+
+
+@include breakpoint-down (720px) {
+
+}

@@ -102,6 +102,10 @@
 
 @include breakpoint-down (1360px) {
 
+  .section-intro {
+    background-image: none;
+  }
+
   .section-intro__container {
     display: flex;
     align-items: center;
