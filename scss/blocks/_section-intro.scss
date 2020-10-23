@@ -132,5 +132,7 @@
 
 @include breakpoint-down (600px) {
 
-
+  .section-intro__heading {
+    margin-bottom: 50px;
+  }
 }
