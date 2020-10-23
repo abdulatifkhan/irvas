@@ -122,3 +122,35 @@ text-align: left;
   text-align: right;
   text-decoration: underline;
 }
+
+@include breakpoint-down (1024px) {
+
+  .site-header__container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .site-header__info {
+    display: none;
+  }
+}
+
+@include breakpoint-down (768px) {
+
+  .site-header__container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .working-time__text-wrapper {
+    display: none;
+  }
+}
+
+@include breakpoint-down (600px) {
+
+  .site-header__container {
+    min-height: 250px;
+    flex-direction: column;
+  }
+}
